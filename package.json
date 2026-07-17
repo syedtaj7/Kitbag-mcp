@@ -14,7 +14,7 @@
     "build": "tsc",
     "start": "node dist/server.js",
     "dev": "tsx src/server.ts",
-    "test": "tsx src/tests/run_tests.ts"
+    "test": "vitest run"
   },
   "keywords": [
     "mcp",
@@ -54,6 +54,7 @@
     "@types/turndown": "^5.0.5",
     "@types/uuid": "^10.0.0",
     "tsx": "^4.16.2",
-    "typescript": "^5.5.3"
+    "typescript": "^5.5.3",
+    "vitest": "^4.1.10"
   }
 }
