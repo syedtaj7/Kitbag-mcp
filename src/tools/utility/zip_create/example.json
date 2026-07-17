@@ -1,0 +1,14 @@
+{
+  "input": {
+    "files": [
+      { "name": "readme.txt", "content": "Welcome to my zip file!" },
+      { "name": "data/notes.txt", "content": "Important information here." }
+    ],
+    "outputPath": "./archive.zip"
+  },
+  "output": {
+    "success": true,
+    "outputPath": "./archive.zip",
+    "sizeBytes": 340
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "input": {
+    "url": "https://example.com",
+    "ignoreAnchorOnly": true
+  },
+  "output": {
+    "url": "https://example.com",
+    "linkCount": 1,
+    "links": [
+      {
+        "text": "More information...",
+        "url": "https://www.iana.org/domains/reserved",
+        "isExternal": true
+      }
+    ]
+  }
+}

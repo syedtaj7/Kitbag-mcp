@@ -1,0 +1,14 @@
+{
+  "input": {
+    "csvData": "id,name,role\n1,Alice,Dev\n2,Bob,PM",
+    "delimiter": ",",
+    "columns": true
+  },
+  "output": {
+    "data": [
+      { "id": "1", "name": "Alice", "role": "Dev" },
+      { "id": "2", "name": "Bob", "role": "PM" }
+    ],
+    "count": 2
+  }
+}

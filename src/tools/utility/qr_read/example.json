@@ -1,0 +1,9 @@
+{
+  "input": {
+    "filePath": "./my_qrcode.png"
+  },
+  "output": {
+    "success": true,
+    "text": "https://example.com"
+  }
+}

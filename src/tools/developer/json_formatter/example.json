@@ -1,0 +1,12 @@
+{
+  "input": {
+    "json": "{\"a\":1,\"b\":[1,2]}",
+    "minify": false,
+    "indent": 2
+  },
+  "output": {
+    "success": true,
+    "formatted": "{\n  \"a\": 1,\n  \"b\": [\n    1,\n    2\n  ]\n}",
+    "sizeBytes": 38
+  }
+}

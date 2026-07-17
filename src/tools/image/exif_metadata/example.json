@@ -1,0 +1,18 @@
+{
+  "input": {
+    "filePath": "./photo.jpg"
+  },
+  "output": {
+    "success": true,
+    "tags": {
+      "Make": "Canon",
+      "Model": "Canon EOS 5D",
+      "DateTimeOriginal": 1130832000
+    },
+    "imageSize": {
+      "width": 100,
+      "height": 100
+    },
+    "hasMetadata": true
+  }
+}

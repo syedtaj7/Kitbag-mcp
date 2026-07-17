@@ -1,0 +1,8 @@
+{
+  "input": {
+    "jsonData": "{\"book\":{\"@id\":\"1\",\"title\":\"My Book\"}}"
+  },
+  "output": {
+    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<book id=\"1\"><title>My Book</title></book>"
+  }
+}

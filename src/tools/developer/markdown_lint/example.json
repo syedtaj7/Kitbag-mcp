@@ -1,0 +1,16 @@
+{
+  "input": {
+    "markdown": "## Welcome \n\n\n\n```javascript\nconsole.log(1);"
+  },
+  "output": {
+    "success": true,
+    "isValid": false,
+    "violationCount": 4,
+    "violations": [
+      { "line": 1, "rule": "MD003", "description": "Line contains trailing whitespace", "content": "## Welcome " },
+      { "line": 1, "rule": "MD002", "description": "First header in the document should be a Level 1 Heading (#)", "content": "## Welcome " },
+      { "line": 4, "rule": "MD004", "description": "Too many consecutive blank lines", "content": "" },
+      { "line": 6, "rule": "MD005", "description": "Document contains an unclosed code block (```)", "content": "" }
+    ]
+  }
+}

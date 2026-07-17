@@ -1,0 +1,13 @@
+{
+  "input": {
+    "domain": "google.com",
+    "rrtype": "MX"
+  },
+  "output": {
+    "domain": "google.com",
+    "rrtype": "MX",
+    "records": [
+      { "exchange": "mail.google.com", "priority": 10 }
+    ]
+  }
+}

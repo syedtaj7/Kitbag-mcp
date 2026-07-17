@@ -1,0 +1,14 @@
+{
+  "input": {
+    "contentA": "hello\nworld",
+    "contentB": "hello\nbrave\nworld",
+    "headerA": "old.txt",
+    "headerB": "new.txt"
+  },
+  "output": {
+    "success": true,
+    "diff": "--- old.txt\n+++ new.txt\n  hello\n+ brave\n  world",
+    "addedLines": 1,
+    "deletedLines": 0
+  }
+}

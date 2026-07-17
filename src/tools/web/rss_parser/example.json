@@ -1,0 +1,21 @@
+{
+  "input": {
+    "url": "https://example.com/feed.xml"
+  },
+  "output": {
+    "feedInfo": {
+      "title": "Example Blog Feed",
+      "description": "Latest updates from Example Blog",
+      "link": "https://example.com"
+    },
+    "itemCount": 1,
+    "items": [
+      {
+        "title": "Hello World Post",
+        "link": "https://example.com/posts/hello-world",
+        "description": "This is our first blog post description.",
+        "pubDate": "Fri, 17 Jul 2026 12:00:00 GMT"
+      }
+    ]
+  }
+}

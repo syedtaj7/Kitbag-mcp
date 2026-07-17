@@ -1,0 +1,13 @@
+{
+  "input": {
+    "yaml": "name: Alice\nage: 30\nskills:\n  - coding\n  - design"
+  },
+  "output": {
+    "success": true,
+    "data": {
+      "name": "Alice",
+      "age": 30,
+      "skills": ["coding", "design"]
+    }
+  }
+}

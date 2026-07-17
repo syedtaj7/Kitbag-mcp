@@ -1,0 +1,19 @@
+{
+  "input": {
+    "spec": "openapi: 3.0.0\ninfo:\n  title: Test API\n  version: 1.0.0\npaths:\n  /users:\n    get:\n      summary: Get users list\n"
+  },
+  "output": {
+    "title": "Test API",
+    "version": "1.0.0",
+    "openApiVersion": "3.0.0",
+    "endpointCount": 1,
+    "endpoints": [
+      {
+        "path": "/users",
+        "method": "GET",
+        "summary": "Get users list",
+        "operationId": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "input": {
+    "url": "https://example.com:8080/path/to/resource?id=123&tag=news#section"
+  },
+  "output": {
+    "success": true,
+    "href": "https://example.com:8080/path/to/resource?id=123&tag=news#section",
+    "protocol": "https:",
+    "hostname": "example.com",
+    "port": "8080",
+    "host": "example.com:8080",
+    "pathname": "/path/to/resource",
+    "search": "?id=123&tag=news",
+    "searchParams": {
+      "id": "123",
+      "tag": "news"
+    },
+    "hash": "#section",
+    "origin": "https://example.com:8080"
+  }
+}

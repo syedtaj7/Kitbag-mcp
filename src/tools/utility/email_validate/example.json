@@ -1,0 +1,24 @@
+{
+  "input": {
+    "email": "hello@google.com",
+    "checkMx": true
+  },
+  "output": {
+    "success": true,
+    "email": "hello@google.com",
+    "isValid": true,
+    "syntax": {
+      "valid": true,
+      "localPart": "hello",
+      "domain": "google.com"
+    },
+    "dns": {
+      "checked": true,
+      "success": true,
+      "hasMxRecords": true,
+      "mxRecords": [
+        { "exchange": "aspmx.l.google.com", "priority": 10 }
+      ]
+    }
+  }
+}

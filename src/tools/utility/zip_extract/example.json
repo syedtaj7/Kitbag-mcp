@@ -1,0 +1,10 @@
+{
+  "input": {
+    "zipPath": "./archive.zip",
+    "outputPath": "./extracted_files"
+  },
+  "output": {
+    "success": true,
+    "message": "ZIP archive successfully extracted to ./extracted_files"
+  }
+}

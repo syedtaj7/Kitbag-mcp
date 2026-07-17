@@ -1,0 +1,12 @@
+{
+  "input": {
+    "filePath": "./sample.pdf"
+  },
+  "output": {
+    "markdown": "# Sample Document\n\nThis is a paragraph of the sample PDF text.\n\n- Point 1\n- Point 2",
+    "pages": 1,
+    "metadata": {
+      "Title": "Sample Document"
+    }
+  }
+}

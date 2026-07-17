@@ -1,0 +1,23 @@
+{
+  "input": {
+    "text": "Paragraph 1 content...\n\nParagraph 2 content...",
+    "chunkSize": 500,
+    "chunkOverlap": 100,
+    "strategy": "paragraph"
+  },
+  "output": {
+    "chunks": [
+      {
+        "index": 0,
+        "content": "Paragraph 1 content...",
+        "length": 22
+      },
+      {
+        "index": 1,
+        "content": "Paragraph 2 content...",
+        "length": 22
+      }
+    ],
+    "count": 2
+  }
+}

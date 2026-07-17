@@ -1,0 +1,15 @@
+{
+  "input": {
+    "arrayData": "[{\"id\":1,\"name\":\"Alice\"},{\"id\":1,\"name\":\"Alice\"},{\"id\":2,\"name\":\"Bob\"}]",
+    "key": "id"
+  },
+  "output": {
+    "originalCount": 3,
+    "deduplicatedCount": 2,
+    "removedCount": 1,
+    "data": [
+      { "id": 1, "name": "Alice" },
+      { "id": 2, "name": "Bob" }
+    ]
+  }
+}

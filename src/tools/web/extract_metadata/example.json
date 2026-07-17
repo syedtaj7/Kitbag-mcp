@@ -1,0 +1,25 @@
+{
+  "input": {
+    "url": "https://example.com"
+  },
+  "output": {
+    "url": "https://example.com",
+    "title": "Example Domain",
+    "description": "Illustrative example domain description",
+    "keywords": "example, domain",
+    "openGraph": {
+      "title": "Example Domain",
+      "type": "website"
+    },
+    "twitter": {
+      "card": "summary"
+    },
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Example"
+      }
+    ]
+  }
+}

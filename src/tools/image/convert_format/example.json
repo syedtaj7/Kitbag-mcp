@@ -1,0 +1,11 @@
+{
+  "input": {
+    "filePath": "./photo.png",
+    "format": "jpeg"
+  },
+  "output": {
+    "success": true,
+    "fileData": "/9j/4AAQSkZJRgABAQ...",
+    "mimeType": "image/jpeg"
+  }
+}

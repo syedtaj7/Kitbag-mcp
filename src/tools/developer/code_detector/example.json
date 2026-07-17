@@ -1,0 +1,22 @@
+{
+  "input": {
+    "code": "def hello_world():\n    print(\"Hello world!\")\n"
+  },
+  "output": {
+    "success": true,
+    "language": "python",
+    "confidence": 0.85,
+    "scores": {
+      "python": 3.5,
+      "javascript": 0,
+      "typescript": 0,
+      "sql": 0,
+      "html": 0,
+      "css": 0,
+      "cpp": 0,
+      "java": 0,
+      "go": 0,
+      "rust": 0
+    }
+  }
+}

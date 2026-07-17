@@ -1,0 +1,10 @@
+{
+  "input": {
+    "type": "v4"
+  },
+  "output": {
+    "success": true,
+    "type": "uuid-v4",
+    "value": "f81d4fae-7dec-11d0-a765-00a0c91e6bf6"
+  }
+}

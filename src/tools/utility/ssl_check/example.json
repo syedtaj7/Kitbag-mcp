@@ -1,0 +1,17 @@
+{
+  "input": {
+    "host": "google.com",
+    "port": 443
+  },
+  "output": {
+    "success": true,
+    "host": "google.com",
+    "port": 443,
+    "subject": { "CN": "google.com" },
+    "issuer": { "CN": "GTS CA 1C3" },
+    "validFrom": "2026-07-01T00:00:00.000Z",
+    "validTo": "2026-09-30T00:00:00.000Z",
+    "daysRemaining": 75,
+    "isExpired": false
+  }
+}

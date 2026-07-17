@@ -1,0 +1,10 @@
+{
+  "input": {
+    "sql": "select id, name from users where status = 'active';",
+    "dialect": "sql"
+  },
+  "output": {
+    "success": true,
+    "formatted": "SELECT\n  id,\n  name\nFROM\n  users\nWHERE\n  status = 'active';"
+  }
+}

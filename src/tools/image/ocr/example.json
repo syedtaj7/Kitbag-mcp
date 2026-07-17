@@ -1,0 +1,11 @@
+{
+  "input": {
+    "filePath": "./document.png",
+    "language": "eng"
+  },
+  "output": {
+    "text": "This is the extracted text from the image.",
+    "confidence": 89.5,
+    "language": "eng"
+  }
+}

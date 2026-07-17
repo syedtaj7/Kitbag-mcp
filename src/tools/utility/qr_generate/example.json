@@ -1,0 +1,10 @@
+{
+  "input": {
+    "text": "https://example.com",
+    "outputPath": "./example_qr.png"
+  },
+  "output": {
+    "success": true,
+    "message": "QR code saved to ./example_qr.png"
+  }
+}

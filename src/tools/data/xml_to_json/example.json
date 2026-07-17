@@ -1,0 +1,12 @@
+{
+  "input": {
+    "xml": "<book id=\"1\"><title>My Book</title><author>Author Name</author></book>"
+  },
+  "output": {
+    "book": {
+      "@id": "1",
+      "title": "My Book",
+      "author": "Author Name"
+    }
+  }
+}

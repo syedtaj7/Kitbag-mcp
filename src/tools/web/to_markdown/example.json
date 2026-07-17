@@ -1,0 +1,9 @@
+{
+  "input": {
+    "url": "https://example.com"
+  },
+  "output": {
+    "url": "https://example.com",
+    "markdown": "# Example Domain\n\nThis domain is for use in illustrative examples in documents."
+  }
+}

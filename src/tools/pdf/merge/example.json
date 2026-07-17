@@ -1,0 +1,13 @@
+{
+  "input": {
+    "files": [
+      { "filePath": "./part1.pdf" },
+      { "filePath": "./part2.pdf" }
+    ],
+    "outputPath": "./merged.pdf"
+  },
+  "output": {
+    "success": true,
+    "message": "Merged PDF saved to ./merged.pdf"
+  }
+}

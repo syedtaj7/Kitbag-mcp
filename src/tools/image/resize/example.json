@@ -1,0 +1,12 @@
+{
+  "input": {
+    "filePath": "./photo.png",
+    "width": 800,
+    "height": 600
+  },
+  "output": {
+    "success": true,
+    "fileData": "iVBORw0KGgoAAAANSUhEUgAAA...",
+    "mimeType": "image/png"
+  }
+}

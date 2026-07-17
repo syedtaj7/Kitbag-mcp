@@ -1,0 +1,11 @@
+{
+  "input": {
+    "type": "flowchart",
+    "title": "Build Process",
+    "elements": ["A[Source Code] --> B[Build]", "B --> C[Artifacts]"]
+  },
+  "output": {
+    "success": true,
+    "diagram": "---\ntitle: Build Process\n---\ngraph TD\n  A[Source Code] --> B[Build]\n  B --> C[Artifacts]"
+  }
+}

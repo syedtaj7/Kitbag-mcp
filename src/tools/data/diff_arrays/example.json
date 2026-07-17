@@ -1,0 +1,17 @@
+{
+  "input": {
+    "arrayA": "[{\"id\":1,\"name\":\"Alice\"},{\"id\":2,\"name\":\"Bob\"}]",
+    "arrayB": "[{\"id\":1,\"name\":\"Alice Modified\"},{\"id\":3,\"name\":\"Charlie\"}]",
+    "key": "id"
+  },
+  "output": {
+    "addedCount": 1,
+    "deletedCount": 1,
+    "modifiedCount": 1,
+    "unchangedCount": 0,
+    "added": [{ "id": 3, "name": "Charlie" }],
+    "deleted": [{ "id": 2, "name": "Bob" }],
+    "modified": [{ "before": { "id": 1, "name": "Alice" }, "after": { "id": 1, "name": "Alice Modified" } }],
+    "unchanged": []
+  }
+}

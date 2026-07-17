@@ -1,0 +1,15 @@
+{
+  "input": {
+    "expression": "0 0 * * *",
+    "iterations": 2
+  },
+  "output": {
+    "success": true,
+    "expression": "0 0 * * *",
+    "isValid": true,
+    "nextExecutions": [
+      "2026-07-18T00:00:00.000Z",
+      "2026-07-19T00:00:00.000Z"
+    ]
+  }
+}

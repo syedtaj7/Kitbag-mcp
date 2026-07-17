@@ -1,0 +1,12 @@
+{
+  "input": {
+    "filePath": "./sample.pdf"
+  },
+  "output": {
+    "text": "Hello World\nThis is a sample PDF text.",
+    "pages": 1,
+    "metadata": {
+      "Title": "Sample Document"
+    }
+  }
+}

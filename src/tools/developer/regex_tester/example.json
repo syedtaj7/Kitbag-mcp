@@ -1,0 +1,16 @@
+{
+  "input": {
+    "regex": "(\\d+)-(\\w+)",
+    "text": "100-apple, 200-banana",
+    "flags": "g"
+  },
+  "output": {
+    "success": true,
+    "hasMatch": true,
+    "matchCount": 2,
+    "matches": [
+      { "match": "100-apple", "index": 0, "groups": ["100", "apple"] },
+      { "match": "200-banana", "index": 11, "groups": ["200", "banana"] }
+    ]
+  }
+}

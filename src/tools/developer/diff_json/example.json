@@ -1,0 +1,18 @@
+{
+  "input": {
+    "jsonA": "{\"id\":1,\"user\":{\"name\":\"Alice\",\"role\":\"Dev\"}}",
+    "jsonB": "{\"id\":1,\"user\":{\"name\":\"Alice\",\"status\":\"active\"},\"settings\":{\"theme\":\"dark\"}}"
+  },
+  "output": {
+    "success": true,
+    "hasChanges": true,
+    "added": [
+      "user.status",
+      "settings"
+    ],
+    "deleted": [
+      "user.role"
+    ],
+    "modified": []
+  }
+}

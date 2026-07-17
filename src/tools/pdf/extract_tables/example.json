@@ -1,0 +1,12 @@
+{
+  "input": {
+    "filePath": "./report_with_table.pdf"
+  },
+  "output": {
+    "success": true,
+    "tableCount": 1,
+    "tables": [
+      "Name | Age | Role\n--- | --- | ---\nAlice | 30 | Engineer\nBob | 25 | Manager"
+    ]
+  }
+}

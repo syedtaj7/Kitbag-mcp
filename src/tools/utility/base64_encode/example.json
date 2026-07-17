@@ -1,0 +1,10 @@
+{
+  "input": {
+    "text": "hello"
+  },
+  "output": {
+    "success": true,
+    "base64": "aGVsbG8=",
+    "sizeBytes": 5
+  }
+}

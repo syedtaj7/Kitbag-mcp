@@ -1,0 +1,16 @@
+{
+  "input": {
+    "filePath": "./report_with_images.pdf"
+  },
+  "output": {
+    "success": true,
+    "imageCount": 1,
+    "images": [
+      {
+        "index": 0,
+        "format": "jpeg",
+        "base64": "/9j/4AAQSkZJRgABAQEASABIAAD..."
+      }
+    ]
+  }
+}
