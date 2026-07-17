@@ -52,7 +52,9 @@ export function filterTools(
   return tools.filter(tool => {
     // If specific tools are enabled, prioritize that check
     if (enabledTools && enabledTools.length > 0) {
-      return enabledTools.includes(tool.name);
+      const normalizedEnabled = enabledTools.map(t => t.replace(/\./g, '_'));
+      const normalizedToolName = tool.name.replace(/\./g, '_');
+      return normalizedEnabled.includes(normalizedToolName);
     }
 
     // Otherwise, check modules filter

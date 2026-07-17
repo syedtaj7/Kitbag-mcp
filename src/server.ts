@@ -43,14 +43,15 @@ async function run() {
 
   const toolMap = new Map<string, ToolDefinition>();
   for (const tool of enabledTools) {
-    toolMap.set(tool.name, tool);
+    const exposedName = tool.name.replace(/\./g, '_');
+    toolMap.set(exposedName, tool);
   }
 
   // Register list_tools handler
   server.setRequestHandler(ListToolsRequestSchema, async () => {
     return {
       tools: enabledTools.map(t => ({
-        name: t.name,
+        name: t.name.replace(/\./g, '_'),
         description: t.description,
         inputSchema: t.inputSchema,
       }))
