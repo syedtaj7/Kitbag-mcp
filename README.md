@@ -1,3 +1,5 @@
+[![CI](https://github.com/syedtaj7/Kitbag-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/syedtaj7/Kitbag-mcp/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/kitbag-mcp.svg)](https://www.npmjs.com/package/kitbag-mcp)
 # 🎒 Kitbag MCP — 50+ Modular Utilities in One MCP Server
 
 [![NPM Version](https://img.shields.io/npm/v/kitbag-mcp?logo=npm&color=CB3837)](https://www.npmjs.com/package/kitbag-mcp)
