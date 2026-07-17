@@ -29,7 +29,7 @@ export const tool: ToolDefinition = {
       return {
         success: true,
         type: "uuid-v4",
-        value: uuidv4()
+        value: uuidv4({})
       };
     } else if (type === 'v1') {
       return {
