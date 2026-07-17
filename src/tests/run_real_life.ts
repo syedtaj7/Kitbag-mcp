@@ -292,7 +292,7 @@ paths:
   }
 
   // Write markdown report
-  const reportPath = 'C:\\Users\\syedt\\.gemini\\antigravity-ide\\brain\\ca9558e4-d4e2-485d-9f1e-abbcf06c1d10\\real_life_test_results.md';
+  const reportPath = path.join(process.cwd(), 'real_life_test_results.md');
   let md = `# Real-Life MCP Tools Execution Report\n\n`;
   md += `This report lists the output of executing all 50 registered tools with live, real-life arguments (live DNS, fetch request connections, SSL sockets, PDF generators, image processes, etc.) as of **${new Date().toISOString()}**.\n\n`;
   md += `## Summary\n\n`;
