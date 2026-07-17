@@ -1,5 +1,5 @@
-import { v4 as uuidv4, v1 as uuidv1 } from 'uuid';
 import crypto from 'crypto';
+import { v1 as uuidv1 } from 'uuid';
 import { ToolDefinition } from '../../../registry/registry.js';
 
 export const tool: ToolDefinition = {
@@ -29,7 +29,7 @@ export const tool: ToolDefinition = {
       return {
         success: true,
         type: "uuid-v4",
-        value: uuidv4({})
+        value: crypto.randomUUID()
       };
     } else if (type === 'v1') {
       return {
