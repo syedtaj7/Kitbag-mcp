@@ -47,6 +47,20 @@ export function loadConfig(): Config {
     enabledModules = configFromFile.enabledModules;
   }
 
+  // Auto-append 'developer' module if all other standard modules are present
+  if (
+    enabledModules &&
+    enabledModules.includes('pdf') &&
+    enabledModules.includes('web') &&
+    enabledModules.includes('image') &&
+    enabledModules.includes('data') &&
+    enabledModules.includes('utility') &&
+    enabledModules.includes('ai') &&
+    !enabledModules.includes('developer')
+  ) {
+    enabledModules.push('developer');
+  }
+
   // Load tools filter
   let enabledTools: string[] | undefined = undefined;
   const toolsIndex = args.indexOf('--enabled-tools');

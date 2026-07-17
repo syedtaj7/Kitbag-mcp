@@ -101,7 +101,7 @@ You can configure Kitbag MCP through CLI flags, Environment Variables, or a conf
 ### Configuration JSON Schema (`kitbag-config.json`):
 ```json
 {
-  "enabledModules": ["pdf", "web", "image", "data", "utility", "ai"],
+  "enabledModules": ["pdf", "web", "image", "data", "utility", "ai", "developer"],
   "enabledTools": [],
   "defaultTimeoutMs": 30000,
   "maxPayloadSizeBytes": 52428800
