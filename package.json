@@ -5,7 +5,7 @@
   "main": "dist/server.js",
   "type": "module",
   "bin": {
-    "kitbag-mcp": "./dist/server.js"
+    "kitbag-mcp": "dist/server.js"
   },
   "files": [
     "dist"
