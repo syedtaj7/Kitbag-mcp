@@ -47,6 +47,7 @@ export const tool: ToolDefinition = {
     const html = await response.text();
     const playerResponseMatch = html.match(/ytInitialPlayerResponse\s*=\s*({[\s\S]+?});/);
     if (!playerResponseMatch) {
+      // codeql[js/incomplete-url-substring-sanitization] - This is checking the raw HTML body to detect if YouTube redirected to a consent wall, not performing URL validation.
       if (html.includes("consent.youtube.com")) {
         throw new Error("YouTube redirected to a consent/cookie page. Scraper blocked.");
       }

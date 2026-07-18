@@ -39,10 +39,9 @@ export const tool: ToolDefinition = {
       };
     } else if (type === 'password') {
       const chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+~`|}{[]:;?><,./-=";
-      const bytes = crypto.randomBytes(length);
       let value = "";
       for (let i = 0; i < length; i++) {
-        value += chars[bytes[i] % chars.length];
+        value += chars[crypto.randomInt(0, chars.length)];
       }
       return {
         success: true,
