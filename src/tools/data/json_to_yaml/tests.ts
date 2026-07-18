@@ -12,4 +12,12 @@ export async function runTests() {
   assert.strictEqual(result.success, true);
   assert.ok(result.yaml.includes("name: Alice"));
   assert.ok(result.yaml.includes("- coding"));
+
+  // Test invalid JSON
+  await assert.rejects(
+    async () => {
+      await tool.handler({ jsonData: "{invalid" });
+    },
+    /Failed to parse input as JSON/
+  );
 }

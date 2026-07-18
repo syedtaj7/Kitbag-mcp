@@ -10,4 +10,16 @@ export async function runTests() {
 
   const resultMd5 = await tool.handler({ text, algorithm: "md5" });
   assert.strictEqual(resultMd5.hash, "5d41402abc4b2a76b9719d911017c592");
+
+  // Test default algorithm
+  const resultDefault = await tool.handler({ text });
+  assert.strictEqual(resultDefault.algorithm, "sha256");
+
+  // Test error when neither is provided
+  await assert.rejects(
+    async () => {
+      await tool.handler({});
+    },
+    /Either text or filePath must be provided/
+  );
 }
