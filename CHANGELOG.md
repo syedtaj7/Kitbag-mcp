@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/syedtaj7/Kitbag-mcp/compare/v1.1.1...v1.1.2) (2026-07-18)
+
+
+### Bug Fixes
+
+* add mcpName field for MCP registry publishing ([f7c55a8](https://github.com/syedtaj7/Kitbag-mcp/commit/f7c55a88ebe7665d0fd093774458db8ae2658f59))
+
 ## [1.1.1](https://github.com/syedtaj7/Kitbag-mcp/compare/v1.1.0...v1.1.1) (2026-07-18)
 
 
