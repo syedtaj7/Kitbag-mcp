@@ -15,4 +15,12 @@ export async function runTests() {
   const readResult = await qrRead.handler({ fileData: base64Data });
   assert.ok(readResult.success);
   assert.strictEqual(readResult.text, "Integration Test Code");
+
+  // Test error when neither is provided
+  await assert.rejects(
+    async () => {
+      await qrRead.handler({});
+    },
+    /Either filePath or fileData must be provided/
+  );
 }
