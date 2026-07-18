@@ -1,50 +1,110 @@
-[![CI](https://github.com/syedtaj7/Kitbag-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/syedtaj7/Kitbag-mcp/actions/workflows/ci.yml)
-[![npm version](https://img.shields.io/npm/v/kitbag-mcp.svg)](https://www.npmjs.com/package/kitbag-mcp)
-# 🎒 Kitbag MCP — 50+ Modular Utilities in One MCP Server
+<div align="center">
 
-[![NPM Version](https://img.shields.io/npm/v/kitbag-mcp?logo=npm&color=CB3837)](https://www.npmjs.com/package/kitbag-mcp)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Platform Support](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-blue)](https://github.com/syedtaj7/Kitbag-mcp)
-[![Model Context Protocol](https://img.shields.io/badge/MCP-1.0.0-orange)](https://modelcontextprotocol.io)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Kitbag%20MCP&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=50%2B%20Modular%20Utilities%20in%20One%20MCP%20Server&descAlignY=55&descSize=18" width="100%"/>
 
-**Kitbag MCP** is a single, zero-config, open-source Model Context Protocol (MCP) server that bundles a curated library of **50+ high-value utility tools** — document converters, OCR processors, web scrapers, data formatters, and AI developer utilities.
+<a href="https://github.com/syedtaj7/Kitbag-mcp/actions/workflows/ci.yml">
+  <img src="https://github.com/syedtaj7/Kitbag-mcp/actions/workflows/ci.yml/badge.svg" alt="CI"/>
+</a>
+<a href="https://www.npmjs.com/package/kitbag-mcp">
+  <img src="https://img.shields.io/npm/v/kitbag-mcp?logo=npm&color=CB3837&label=npm" alt="npm version"/>
+</a>
+<a href="https://opensource.org/licenses/MIT">
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"/>
+</a>
+<a href="https://github.com/syedtaj7/Kitbag-mcp">
+  <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-blue" alt="Platform Support"/>
+</a>
+<a href="https://modelcontextprotocol.io">
+  <img src="https://img.shields.io/badge/MCP-1.0.0-orange" alt="Model Context Protocol"/>
+</a>
+<br/>
+<img src="https://img.shields.io/npm/dt/kitbag-mcp?color=success&label=downloads" alt="downloads"/>
+<img src="https://img.shields.io/github/stars/syedtaj7/Kitbag-mcp?style=social" alt="stars"/>
+<img src="https://img.shields.io/github/last-commit/syedtaj7/Kitbag-mcp?color=blueviolet" alt="last commit"/>
 
-Instead of installing, configuring, and paying to host multiple single-purpose MCP servers, you install **Kitbag MCP** and selectively enable only the modules you need. It runs completely locally on your computer with **zero hosting costs**, **no API keys**, and **no server setups**.
+<br/><br/>
+
+<a href="https://github.com/syedtaj7/Kitbag-mcp">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=6C63FF&center=true&vCenter=true&width=650&lines=Zero-config+MCP+server;50%2B+curated+utility+tools;No+API+keys.+No+hosting+costs;Runs+100%25+locally+on+your+machine" alt="Typing SVG" />
+</a>
+
+</div>
+
+<br/>
+
+> **Kitbag MCP** is a single, open-source [Model Context Protocol](https://modelcontextprotocol.io) server that bundles a curated library of **50+ high-value utility tools** — document converters, OCR processors, web scrapers, data formatters, and AI developer utilities — all in one place.
+>
+> Instead of installing, configuring, and paying to host a dozen single-purpose MCP servers, install **Kitbag MCP once** and selectively enable only the modules you need. It runs entirely on your machine: **zero hosting costs**, **no API keys**, **no server setup**.
+
+<div align="center">
+<img src="https://img.shields.io/badge/-No%20API%20Keys-2ea44f?style=for-the-badge" />
+<img src="https://img.shields.io/badge/-Zero%20Hosting%20Cost-2ea44f?style=for-the-badge" />
+<img src="https://img.shields.io/badge/-Runs%20Locally-2ea44f?style=for-the-badge" />
+<img src="https://img.shields.io/badge/-Zero%20Config-2ea44f?style=for-the-badge" />
+</div>
 
 ---
 
-## 🗺️ Tool Category Index
+## 📖 Table of Contents
 
-- [📄 PDF Tools (`pdf.*`)](#-pdf-tools-pdf)
-- [🌐 Web Scraping & Networking (`web.*`)](#-web-scraping--networking-web)
-- [📸 Image & OCR Tools (`image.*`)](#-image--ocr-tools-image)
-- [📊 Data Transformation (`data.*`)](#-data-transformation-data)
-- [💻 Developer Utilities (`developer.*`)](#-developer-utilities-developer)
-- [🛠️ Utility Tools (`utility.*`)](#-utility-tools-utility)
-- [🧠 AI Chunker (`ai.*`)](#-ai-chunker-ai)
+<details open>
+<summary>Click to expand</summary>
+
+- [🚀 Quick Start](#-quick-start-zero-config)
+- [⚙️ Client Setup](#️-supported-clients-setup)
+  - [Claude Desktop](#1-claude-desktop)
+  - [Cursor](#2-cursor)
+  - [Windsurf](#3-windsurf)
+- [🎛️ Configuration](#️-configuration-flags--environment-variables)
+- [🗺️ Tool Category Index](#️-tool-category-index)
+- [📚 Complete Tool Directory](#-complete-tool-directory)
+  - [📄 PDF Tools](#-pdf-tools-pdf)
+  - [🌐 Web Scraping & Networking](#-web-scraping--networking-web)
+  - [📸 Image & OCR Tools](#-image--ocr-tools-image)
+  - [📊 Data Transformation](#-data-transformation-data)
+  - [💻 Developer Utilities](#-developer-utilities-developer)
+  - [🛠️ Utility Tools](#️-utility-tools-utility)
+  - [🧠 AI Chunker](#-ai-chunker-ai)
+- [🏗️ Architecture](#️-how-it-works)
+- [🛠️ Local Development & Contributions](#️-local-development--contributions)
+- [⚖️ License](#️-license)
+
+</details>
 
 ---
 
 ## 🚀 Quick Start (Zero Config)
 
-Run instantly using `npx` (Node.js):
+Run instantly using `npx` (Node.js required):
+
 ```bash
 npx kitbag-mcp
 ```
 
 ### Expose Specific Modules (Saves LLM Context Tokens)
+
 To prevent your AI agents from getting overwhelmed by tool options, enable only what you need:
+
 ```bash
 # Enable PDF and Web scraping modules only
 npx kitbag-mcp --enabled-modules pdf,web
 ```
+
+<div align="center">
+<img src="https://img.shields.io/badge/Step%201-Install-6C63FF?style=flat-square" /> ➜
+<img src="https://img.shields.io/badge/Step%202-Choose%20Modules-6C63FF?style=flat-square" /> ➜
+<img src="https://img.shields.io/badge/Step%203-Connect%20Client-6C63FF?style=flat-square" /> ➜
+<img src="https://img.shields.io/badge/Step%204-Start%20Using-2ea44f?style=flat-square" />
+</div>
 
 ---
 
 ## ⚙️ Supported Clients Setup
 
 ### 1. Claude Desktop
+
 Add this entry to your `claude_desktop_config.json`:
+
 ```json
 {
   "mcpServers": {
@@ -62,7 +122,8 @@ Add this entry to your `claude_desktop_config.json`:
 ```
 
 ### 2. Cursor
-1. Go to **Settings** > **Beta Features** > **MCP**.
+
+1. Go to **Settings** → **Beta Features** → **MCP**.
 2. Click **+ Add New MCP Server**.
 3. Configure:
    - **Name**: `Kitbag MCP`
@@ -70,7 +131,9 @@ Add this entry to your `claude_desktop_config.json`:
    - **Command**: `npx -y kitbag-mcp --enabled-modules pdf,web,data,utility`
 
 ### 3. Windsurf
+
 Add this entry to your `mcp_config.json`:
+
 ```json
 {
   "mcpServers": {
@@ -92,7 +155,7 @@ Add this entry to your `mcp_config.json`:
 
 ## 🎛️ Configuration Flags & Environment Variables
 
-You can configure Kitbag MCP through CLI flags, Environment Variables, or a configuration JSON file.
+Kitbag MCP can be configured through CLI flags, environment variables, or a JSON config file — whichever fits your workflow.
 
 | Configuration Source | Example Usage |
 | :--- | :--- |
@@ -100,7 +163,8 @@ You can configure Kitbag MCP through CLI flags, Environment Variables, or a conf
 | **Env Variables** | `KITBAG_ENABLED_MODULES=pdf,web` or `KITBAG_ENABLED_TOOLS=utility.qr_generate` |
 | **JSON Config** | A `kitbag-config.json` file in the current working directory, or via `--config /path/to/config.json` |
 
-### Configuration JSON Schema (`kitbag-config.json`):
+**`kitbag-config.json` schema:**
+
 ```json
 {
   "enabledModules": ["pdf", "web", "image", "data", "utility", "ai", "developer"],
@@ -112,9 +176,28 @@ You can configure Kitbag MCP through CLI flags, Environment Variables, or a conf
 
 ---
 
+## 🗺️ Tool Category Index
+
+<div align="center">
+
+| Category | Prefix | Tools | Focus |
+| :---: | :---: | :---: | :--- |
+| 📄 PDF | `pdf.*` | 6 | Parsing, conversion, merging, splitting |
+| 🌐 Web | `web.*` | 7 | Scraping, feeds, sitemaps, DNS |
+| 📸 Image & OCR | `image.*` | 5 | Resizing, compression, OCR, EXIF |
+| 📊 Data | `data.*` | 8 | CSV / JSON / XML / YAML conversion |
+| 💻 Developer | `developer.*` | 11 | Formatting, linting, diffing, decoding |
+| 🛠️ Utility | `utility.*` | 12 | Crypto, QR, networking, archives |
+| 🧠 AI | `ai.*` | 1 | Text chunking for LLM ingestion |
+
+</div>
+
+---
+
 ## 📚 Complete Tool Directory
 
 ### 📄 PDF Tools (`pdf.*`)
+
 High-performance local PDF parsers and manipulators.
 
 | Tool Name | Description | Example Agent Prompt |
@@ -129,6 +212,7 @@ High-performance local PDF parsers and manipulators.
 ---
 
 ### 🌐 Web Scraping & Networking (`web.*`)
+
 Interact with raw web documents and query networking systems.
 
 | Tool Name | Description | Example Agent Prompt |
@@ -144,6 +228,7 @@ Interact with raw web documents and query networking systems.
 ---
 
 ### 📸 Image & OCR Tools (`image.*`)
+
 Manipulate images and extract text locally.
 
 | Tool Name | Description | Example Agent Prompt |
@@ -157,6 +242,7 @@ Manipulate images and extract text locally.
 ---
 
 ### 📊 Data Transformation (`data.*`)
+
 Fast, offline conversion between standard data formats.
 
 | Tool Name | Description | Example Agent Prompt |
@@ -173,6 +259,7 @@ Fast, offline conversion between standard data formats.
 ---
 
 ### 💻 Developer Utilities (`developer.*`)
+
 Standard formats, validation, and layout tools for developers.
 
 | Tool Name | Description | Example Agent Prompt |
@@ -192,6 +279,7 @@ Standard formats, validation, and layout tools for developers.
 ---
 
 ### 🛠️ Utility Tools (`utility.*`)
+
 System, network, and cryptography helper functions.
 
 | Tool Name | Description | Example Agent Prompt |
@@ -212,6 +300,7 @@ System, network, and cryptography helper functions.
 ---
 
 ### 🧠 AI Chunker (`ai.*`)
+
 Segment large text structures dynamically for ingestion.
 
 | Tool Name | Description | Example Agent Prompt |
@@ -220,17 +309,42 @@ Segment large text structures dynamically for ingestion.
 
 ---
 
+## 🏗️ How It Works
+
+```mermaid
+flowchart LR
+    A[AI Agent / Client] -->|MCP Protocol| B(Kitbag MCP Server)
+    B --> C{Enabled Modules}
+    C --> D[📄 pdf.*]
+    C --> E[🌐 web.*]
+    C --> F[📸 image.*]
+    C --> G[📊 data.*]
+    C --> H[💻 developer.*]
+    C --> I[🛠️ utility.*]
+    C --> J[🧠 ai.*]
+    D & E & F & G & H & I & J --> K[Local Execution<br/>No External API Calls]
+    K --> A
+```
+
+Kitbag MCP runs as a single local process. Your AI client talks to it over the standard MCP protocol, and only the modules you enable are exposed as tools — keeping token usage low and your workflow fast and private.
+
+---
+
 ## 🛠️ Local Development & Contributions
 
 Every tool is fully self-contained. Adding a new tool is as simple as creating a folder inside `src/tools/<category>/<tool_name>/`.
 
-### Contribution Requirements:
-1. **`tool.ts`**: The main execution code exporting a `ToolDefinition`.
-2. **`README.md`**: Direct tool documentation and parameter descriptions.
-3. **`example.json`**: Sample inputs and expected outputs.
-4. **`tests.ts`**: Self-contained unit tests using mocks where necessary to run instantly.
+### Contribution Requirements
 
-### Command Guide:
+| File | Purpose |
+| :--- | :--- |
+| `tool.ts` | The main execution code, exporting a `ToolDefinition`. |
+| `README.md` | Direct tool documentation and parameter descriptions. |
+| `example.json` | Sample inputs and expected outputs. |
+| `tests.ts` | Self-contained unit tests using mocks where necessary to run instantly. |
+
+### Command Guide
+
 ```bash
 # Build compiler output
 npm run build
@@ -242,5 +356,22 @@ npm test
 npx tsx src/tests/run_real_life.ts
 ```
 
+<div align="center">
+<a href="https://github.com/syedtaj7/Kitbag-mcp/issues"><img src="https://img.shields.io/badge/-Report%20a%20Bug-red?style=for-the-badge&logo=github" /></a>
+<a href="https://github.com/syedtaj7/Kitbag-mcp/pulls"><img src="https://img.shields.io/badge/-Submit%20a%20PR-brightgreen?style=for-the-badge&logo=github" /></a>
+<a href="https://github.com/syedtaj7/Kitbag-mcp/discussions"><img src="https://img.shields.io/badge/-Start%20a%20Discussion-blueviolet?style=for-the-badge&logo=github" /></a>
+</div>
+
+---
+
 ## ⚖️ License
-Distributed under the **MIT License**. See `LICENSE` for more information. Fully open-source and free to adapt for personal or commercial use.
+
+Distributed under the **MIT License**. See [`LICENSE`](./LICENSE) for more information. Fully open-source and free to adapt for personal or commercial use.
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
+
+**⭐ If Kitbag MCP saves you time, consider starring the repo! ⭐**
+
+</div>
