@@ -17,6 +17,10 @@
     "test": "vitest run",
     "test:coverage": "vitest run --coverage"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syedtaj7/Kitbag-mcp.git"
+  },
   "keywords": [
     "mcp",
     "model-context-protocol",
