@@ -44,7 +44,7 @@ export const tool: ToolDefinition = {
       
       if (!href) return;
       if (ignoreAnchors && href.startsWith('#')) return;
-      if (href.startsWith('javascript:')) return;
+      if (/^(javascript|vbscript|data):/i.test(href)) return;
 
       try {
         const absoluteUrl = new URL(href, args.url).href;

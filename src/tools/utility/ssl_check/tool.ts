@@ -21,6 +21,7 @@ export const tool: ToolDefinition = {
         host,
         port,
         servername: host,
+        // codeql[js/disabling-certificate-validation] - This tool retrieves certificate details, so we must allow connection to invalid/expired hosts.
         rejectUnauthorized: false
       }, () => {
         const cert = socket.getPeerCertificate(true);
