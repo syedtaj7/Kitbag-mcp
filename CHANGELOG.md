@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.1](https://github.com/syedtaj7/Kitbag-mcp/compare/v1.1.0...v1.1.1) (2026-07-18)
+
+
+### Bug Fixes
+
+* add repository field to package.json for provenance validation ([64f32c3](https://github.com/syedtaj7/Kitbag-mcp/commit/64f32c31f7aa8b9ae4d6c00f882e86fef3af8fcb))
+* add repository field to package.json for provenance validation ([fcdc8ab](https://github.com/syedtaj7/Kitbag-mcp/commit/fcdc8ab30531721b625494349ae362cfda394c73))
+
 ## [1.1.0](https://github.com/syedtaj7/Kitbag-mcp/compare/v1.0.2...v1.1.0) (2026-07-18)
 
 
